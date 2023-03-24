@@ -1,0 +1,220 @@
+body
+{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('https://images.hdqwalls.com/wallpapers/nature-background.jpg');
+    background-size: cover;
+   
+}
+.menu
+{
+    height: 600px;
+    width: auto;
+    display: flex;
+    position: relative;
+}
+.name
+{
+    letter-spacing: 2px;
+    padding: 10px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.logo
+{
+    color:rgb(255, 185, 56);
+}
+.navbar
+{
+    display: flex;
+}
+.menu1
+{
+    
+    margin-left: 50px;
+    display: flex;
+}
+.menu1 ul{
+    
+    display: flex;   
+}
+.menu1 ul li{
+    margin: 50px;
+    display: flex;
+}
+.menu1 ul li a{
+    text-decoration: none;
+    size: 32px;
+    color: white;
+}
+.menu1 li a:hover
+{
+    color: rgb(255, 213, 75);
+}
+.search
+{
+    line-height: 150px;
+    
+}
+.dr  
+{
+    color: white;
+}
+.search .dr
+{
+    padding: 5px;
+    background-color: transparent;
+    border: 2px solid rgb(255, 178, 34);
+    border-right: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px
+}
+.search .dr
+{
+    margin-left: 140px;
+    outline: none;
+}
+::placeholder
+{
+    color: white;
+}
+.srch
+{
+    
+    line-height: 150px;
+}
+.srch .btn
+{
+    padding: 5px;
+    background-color: orange;
+    border: 2px solid orange;
+    border-radius: 2px;
+  
+}
+.srch .btn:hover
+{
+    background-color: white;
+}
+.srch .btn a
+{
+    text-decoration: none;
+}
+.cr
+{
+    margin-left: 325px;
+    margin-top:100px;
+}
+.cr h2
+{
+    letter-spacing: 3px;
+    color: orange;
+}
+.h2{
+    font-size: 40px;
+}
+span
+{
+    color:rgba(255, 160, 153, 0.89);
+}
+.para
+{
+    width: 30%;
+}
+.para p
+{
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    color: rgb(251, 175, 253);
+}
+.bn{
+    margin: 20px;
+    margin-left: 180px;
+    background-color: yellow;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 10px;
+}
+.bn:hover
+{
+    background-color: tomato;
+}
+.lp
+{
+    height: auto;
+    width: 240px;
+    border-radius: 10px;
+    margin-left: 1380px;
+    position: absolute;
+    top:280px;
+    background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.5));
+}
+.lp1
+{
+    text-align: center;
+   
+    height: auto;
+   
+}
+.lp2
+{
+    background-color: sandybrown;
+    padding: 3px;
+    margin-left:10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+::placeholder
+{
+    color: green;
+}
+.user1
+{
+    padding: 5px;
+   background-color: transparent;
+   border-left: none;
+   border-right:none;
+   border-top: none;
+   border-bottom: 2px solid black;
+   color: rgb(253, 239, 253);
+}
+.user1,.user2:focus
+{
+    outline: none;
+}
+.user2
+{
+    padding: 5px;
+   background-color: transparent;
+   border-left: none;
+   border-right:none;
+   border-top: none;
+   color: rgb(253, 239, 253);
+   border-bottom: 2px solid black;
+}
+.btn4
+{
+    cursor: pointer;
+    background-color: chartreuse;
+    padding: 3px;
+    border-radius: 5px;
+}
+.btn4:hover
+{
+    background-color: blue;
+}
+.ac
+{
+   color: tomato;
+}
+.btn5
+{
+    color: red;
+    cursor: pointer;
+}
+.btn5:hover
+{
+    color: springgreen;
+}
+.social
+{
+    padding: 10px 5px 5px;
+}
